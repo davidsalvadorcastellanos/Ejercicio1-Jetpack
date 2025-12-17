@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.Practica1JetpackCompose" >
         <activity
-            android:name="com.example.practica1_jetpackcompose.MainActivity"
+            android:name="com.example.practica1_jetpackcompose.PrimaryActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Practica1JetpackCompose" >
@@ -38,6 +38,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.practica1_jetpackcompose.SecondActivity" />
+        <activity android:name="com.example.practica1_jetpackcompose.ThirdActivity" />
         <activity
             android:name="androidx.compose.ui.tooling.PreviewActivity"
             android:exported="true" />
